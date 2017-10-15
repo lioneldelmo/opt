@@ -1,0 +1,188 @@
+{
+  "title": "Operations Planning Tool",
+  "resources": [
+    {
+      "name": "Mike Logan",
+      "id": "r1"
+    },
+    {
+      "name": "Peter Paul",
+      "id": "r2"
+    },
+    {
+      "name": "Karen Mills",
+      "id": "r3"
+    },
+    {
+      "name": "Matt Olson",
+      "id": "r4"
+    },
+    {
+      "name": "Mike Taylor",
+      "id": "r5"
+    },
+    {
+      "name": "Rob Ellis",
+      "id": "r6"
+    },
+    {
+      "name": "Brad Shannon",
+      "id": "r7"
+    }
+  ],
+  "missions": [
+    {
+      "name": "RR5",
+      "launchDay": 267,
+      "startDay": 265,
+      "startYear": 2017,
+      "numDays": 65,
+      "progress": 25,
+      "flows": [
+        {
+          "name": "FLOW ABC",
+          "progress": 100,
+          "startDate": 265,
+          "fillerDays": [],
+          "days": [
+            [], [], [], [], [], [
+              {"id": "ACT A", "name": "Activity A", "progress": 100, "tasks": [
+                {"name": "Task A", "date": "11-3-2017", "startTime": "1:00", "duration": 0.50, "id": "t1", "resources": ["r1", "r2"]}
+              ]}
+            ], [
+              {"id": "ACT B", "name": "Activity B", "progress": 100, "tasks": [
+                {"name": "Task B", "date": "11-3-2017", "startTime": "1:30", "duration": 1.50, "id": "t2", "resources": ["r3"]},
+                {"name": "Task C", "date": "11-3-2017", "startTime": "1:00", "duration": 2.25, "id": "t3", "resources": ["r4", "r5"]},
+                {"name": "Task D", "date": "11-3-2017", "startTime": "0:45", "duration": 0.25, "id": "t4", "resources": ["r6"]}
+              ]},
+              {"id": "ACT C", "name": "Activity C", "progress": 100, "tasks": [
+                {"name": "Task E", "date": "11-3-2017", "startTime": "1:00", "duration": 2.25, "id": "t5", "resources": ["r7"]},
+                {"name": "Task F", "date": "11-3-2017", "startTime": "0:30", "duration": 1.50, "id": "t6", "resources": ["r1"]}
+              ]}
+            ], [], [], [], [], [], [], [], [], [], [], [], []
+          ]
+        },
+        {
+          "name": "FLOW DEF",
+          "progress": 20,
+          "startDate": 270,
+          "fillerDays": [],
+          "days": [
+            [], [], [], [], [
+              {"id": "ACT D", "name": "Activity D", "progress": 100, "tasks": [
+                {"name": "Task G", "date": "11-3-2017", "startTime": "1:30", "duration": 2.50, "id": "t7", "resources": ["r1", "r2"]},
+                {"name": "Task H", "date": "11-3-2017", "startTime": "1:00", "duration": 1.25, "id": "t8", "resources": ["r3"]},
+                {"name": "Task I", "date": "11-3-2017", "startTime": "0:45", "duration": 0.50, "id": "t9", "resources": ["r4", "r5"]}
+              ]}
+            ], [
+              {"id": "ACT E", "name": "Activity E", "progress": 0, "tasks": [
+                {"name": "Task J", "date": "11-3-2017", "startTime": "1:00", "duration": 1.75, "id": "t10", "resources": ["r6"]}
+              ]},
+              {"id": "ACT F", "name": "Activity F", "progress": 0, "tasks": [
+                {"name": "Task K", "date": "11-3-2017", "startTime": "1:00", "duration": 2.00, "id": "t11", "resources": ["r7"]},
+                {"name": "Task L", "date": "11-3-2017", "startTime": "0:30", "duration": 2.25, "id": "t12", "resources": ["r1", "r2"]}
+              ]}
+            ], [], [], [], [], [], [], [], [], [], [], [], [], []
+          ]
+        },
+        {
+          "name": "FLOW GHI",
+          "progress": 20,
+          "startDate": 274,
+          "fillerDays": [],
+          "days": [
+            [], [], [], [], [], [], [], [], [], [
+              {"id": "ACT G", "name": "Activity G", "progress": 100, "tasks": [
+                {"name": "Task M", "date": "11-3-2017", "startTime": "1:00", "duration": 2.25, "id": "t13", "resources": ["r1", "r2"]},
+                {"name": "Task N", "date": "11-3-2017", "startTime": "0:30", "duration": 1.75, "id": "t14", "resources": ["r3"]}
+              ]},
+              {"id": "ACT H", "name": "Activity H", "progress": 100, "tasks": [
+                {"name": "Task O", "date": "11-3-2017", "startTime": "1:00", "duration": 1.50, "id": "t15", "resources": ["r4", "r5"]}
+              ]}
+            ], [
+              {"id": "ACT I", "name": "Activity I", "progress": 0, "tasks": [
+                {"name": "Task P", "date": "11-3-2017", "startTime": "1:30", "duration": 3.25, "id": "t16", "resources": ["r6"]},
+                {"name": "Task Q", "date": "11-3-2017", "startTime": "1:00", "duration": 0.75, "id": "t17", "resources": ["r7", "r1"]},
+                {"name": "Task R", "date": "11-3-2017", "startTime": "0:45", "duration": 1.25, "id": "t18", "resources": ["r2"]}
+              ]},
+              {"id": "ACT R", "name": "Activity R", "progress": 0, "tasks": [
+                {"name": "Task S", "date": "11-3-2017", "startTime": "1:00", "duration": 2.25, "id": "t19", "resources": ["r4"]},
+                {"name": "Task T", "date": "11-3-2017", "startTime": "0:30", "duration": 1.75, "id": "t20", "resources": ["r3", "r5"]}
+              ]}
+            ], [], [], [], [], [], [], [], []
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "RR9",
+      "launchDay": 284,
+      "startDay": 282,
+      "startYear": 2017,
+      "numDays": 75,
+      "progress": 10,
+      "flows": [
+        {
+          "name": "FLOW JKL",
+          "progress": 20,
+          "startDate": 282,
+          "fillerDays": [],
+          "days": [
+            [], [], [], [
+              {"id": "ACT J", "name": "Activity J", "progress": 80, "tasks": [
+                {"name": "Task U", "date": "11-3-2017", "startTime": "1:00", "duration": 2.50, "id": "t21", "resources": ["r1", "r2"]},
+                {"name": "Task V", "date": "11-3-2017", "startTime": "0:30", "duration": 1.25, "id": "t22", "resources": ["r3"]}
+              ]},
+              {"id": "ACT K", "name": "Activity K", "progress": 0, "tasks": [
+                {"name": "Task W", "date": "11-3-2017", "startTime": "1:30", "duration": 0.75, "id": "t23", "resources": ["r4"]},
+                {"name": "Task X", "date": "11-3-2017", "startTime": "1:00", "duration": 1.25, "id": "t24", "resources": ["r5"]},
+                {"name": "Task Y", "date": "11-3-2017", "startTime": "0:45", "duration": 2.00, "id": "t25", "resources": ["r6", "r7"]}
+              ]}
+            ],
+            [],
+            [
+              {"id": "ACT L", "name": "Activity L", "progress": 0, "tasks": [
+                {"name": "Task Z", "date": "11-3-2017", "startTime": "1:00", "duration": 2.25, "id": "t26", "resources": ["r1"]}
+              ]},
+              {"id": "ACT M", "name": "Activity M", "progress": 0, "tasks": [
+                {"name": "Task AA", "date": "11-3-2017", "startTime": "1:00", "duration": 2.50, "id": "t27", "resources": ["r2"]},
+                {"name": "Task BB", "date": "11-3-2017", "startTime": "0:30", "duration": 1.50, "id": "t28", "resources": ["r3"]}
+              ]}
+            ], [], [], [], [], [], [], [], [], [], [], [], [], []
+          ]
+        },
+        {
+          "name": "FLOW MNO",
+          "startDate": 291,
+          "progress": 0,
+          "fillerDays": [],
+          "days": [
+            [], [], [], [], [], [], [
+              {"id": "ACT N", "name": "Activity N", "progress": 0, "tasks": [
+                {"name": "Task CC", "date": "11-3-2017", "startTime": "1:30", "duration": 0.50, "id": "t29", "resources": ["r4"]},
+                {"name": "Task DD", "date": "11-3-2017", "startTime": "1:00", "duration": 1.25, "id": "t30", "resources": ["r5", "r6"]},
+                {"name": "Task EE", "date": "11-3-2017", "startTime": "0:45", "duration": 3.25, "id": "t31", "resources": ["r7"]}
+              ]},
+              {"id": "ACT O", "name": "Activity O", "progress": 0, "tasks": [
+                {"name": "Task FF", "date": "11-3-2017", "startTime": "1:00", "duration": 1.25, "id": "t32", "resources": ["r1", "r2"]}
+              ]}
+            ],
+            [], [], [], [], [], [], [], [],
+            [
+              {"id": "ACT P", "name": "Activity P", "progress": 0, "tasks": [
+                {"name": "Task GG", "date": "11-3-2017", "startTime": "1:00", "duration": 2.00, "id": "t33", "resources": ["r3"]},
+                {"name": "Task HH", "date": "11-3-2017", "startTime": "0:30", "duration": 0.50, "id": "t34", "resources": ["r4"]}
+              ]},
+              {"id": "ACT Q", "name": "Activity Q", "progress": 0, "tasks": [
+                {"name": "Task II", "date": "11-3-2017", "startTime": "1:30", "duration": 1.00, "id": "t35", "resources": ["r5"]},
+                {"name": "Task JJ", "date": "11-3-2017", "startTime": "1:00", "duration": 0.25, "id": "t36", "resources": ["r6", "r7"]}
+              ]}
+            ], [], [], [], [], [], [], [], []
+          ]
+        }
+      ]
+    }
+
+  ]
+}
